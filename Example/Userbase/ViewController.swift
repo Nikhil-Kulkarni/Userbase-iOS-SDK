@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Userbase
 
 class ViewController: UIViewController {
 

@@ -1,0 +1,34 @@
+{
+  "name": "Userbase",
+  "version": "0.1.0",
+  "summary": "A short description of Userbase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nikhil-kulkarni/Userbase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nikhil-kulkarni": "nikhil896@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nikhil-kulkarni/Userbase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "Firebase/Auth": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  },
+  "static_framework": true,
+  "source_files": "Userbase/Classes/**/*"
+}

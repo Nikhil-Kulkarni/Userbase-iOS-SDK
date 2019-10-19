@@ -1,0 +1,6 @@
+framework module Userbase {
+  umbrella header "Userbase-umbrella.h"
+
+  export *
+  module * { export * }
+}
