@@ -28,7 +28,7 @@ Then, run the following command:
 ```$ pod install```
 
 ## Usage
-The Userbase iOS SDK is meant to be used in conjunction with [https://github.com/Nikhil-Kulkarni/Userbase-Backend](Userbase-Backend). Follow instructions [https://github.com/Nikhil-Kulkarni/Userbase-Backend](here) to setup your Firebase account and deploy the pre-written cloud functions. Make note of the url the functions are deployed to and add it to a new file called Userbase-Info.plist. 
+The Userbase iOS SDK is meant to be used in conjunction with [Userbase-Backend](https://github.com/Nikhil-Kulkarni/Userbase-Backend). Follow instructions [here](https://github.com/Nikhil-Kulkarni/Userbase-Backend) to setup your Firebase account and deploy the pre-written cloud functions. Make note of the url the functions are deployed to and add it to a new file called Userbase-Info.plist. 
 
 ```swift
 import Userbase
