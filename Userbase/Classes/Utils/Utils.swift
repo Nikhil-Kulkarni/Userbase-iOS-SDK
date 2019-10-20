@@ -11,7 +11,7 @@ class Utils {
     
     public static func getUserbasePlist() -> [String : String]? {
         var propertyListFormat =  PropertyListSerialization.PropertyListFormat.xml
-        let plistPath: String? = Bundle.main.path(forResource: "Userbase", ofType: "plist")!
+        let plistPath: String? = Bundle.main.path(forResource: "Userbase-Info", ofType: "plist")!
         let plistXML = FileManager.default.contents(atPath: plistPath!)!
         do {
             let plistData = try PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: &propertyListFormat) as! [String : String]

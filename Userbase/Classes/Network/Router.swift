@@ -17,7 +17,7 @@ class Router<Endpoint: EndpointType> {
         let queue = DispatchQueue(label: routerDispatchQueueLabel, qos: .userInitiated)
         
         guard let plist = Utils.getUserbasePlist() else {
-            fatalError("Userbase.plist not found. Add property list to use Userbase SDK.")
+            fatalError("Userbase-Info.plist not found. Add property list to use Userbase SDK.")
         }
         
         guard let baseUrl = plist["BASE_URL"] else {
